@@ -5,7 +5,7 @@
         version de prueba de la app del Faro de Oriente
     </description>
     <author email="mauricio.glez.v@gmail.com" href="">
-        Mauricio Alejandro Gonzalez Vargas Diana Ocampo Méndez
+        Mauricio Alejandro Gonzalez Vargas, Diana Ocampo Méndez
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -19,6 +19,18 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+	<icon src="36x36_cuadro.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="48x48_cuadro.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="72x72_cuadro.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="96x96_cuadro.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="144x144_cuadro.png" gap:platform="android" gap:density="xxhdpi" />
+	<icon src="192x192_cuadro.png" gap:platform="android" gap:density="xxxhdpi" />
+  	<splash src="Splash%20Screen-01.png" gap:platform="android" gap:qualifier="ldpi" />
+	<splash src="Splash%20Screen-02.png" gap:platform="android" gap:qualifier="mdpi" />
+	<splash src="Splash%20Screen-03.png" gap:platform="android" gap:qualifier="hdpi" />
+	<splash src="Splash%20Screen-04.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<splash src="Splash%20Screen-05.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
