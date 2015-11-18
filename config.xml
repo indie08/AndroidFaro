@@ -19,6 +19,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+
+    <platform name="android">
 	<icon src="36x36_cuadro.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="48x48_cuadro.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="72x72_cuadro.png" gap:platform="android" gap:density="hdpi" />
@@ -31,8 +33,6 @@
 	<splash src="Splash%20Screen-04.png" gap:platform="android" gap:qualifier="xhdpi" />
 	<splash src="Splash%20Screen-05.png" gap:platform="android" gap:qualifier="xxhdpi" />
 
-    <platform name="android">
-        <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
